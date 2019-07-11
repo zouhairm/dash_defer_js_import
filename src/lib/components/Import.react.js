@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
  * https://github.com/Grasia/grasia-dash-components/blob/master/src/components/Import.react.js
  */
 
-export default class DashDeferJSImport extends Component {
+export default class Import extends Component {
 
   componentDidMount () {
 
@@ -32,9 +32,9 @@ export default class DashDeferJSImport extends Component {
   }
 }
 
-DashDeferJSImport.defaultProps = {};
+Import.defaultProps = {};
 
-DashDeferJSImport.propTypes = {
+Import.propTypes = {
   /**
   * The ID used to identify this component in Dash callbacks
   */

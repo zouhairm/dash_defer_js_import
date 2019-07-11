@@ -1,7 +1,7 @@
 {
-  "src/lib/components/DashDeferJSImport.react.js": {
+  "src/lib/components/Import.react.js": {
     "description": "This component is based on the Import sub-component of dash-grasia\nSee original implementation here:\nhttps://github.com/Grasia/grasia-dash-components/blob/master/src/components/Import.react.js",
-    "displayName": "DashDeferJSImport",
+    "displayName": "Import",
     "methods": [],
     "props": {
       "id": {

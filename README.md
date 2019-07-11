@@ -35,7 +35,7 @@ If you have selected install_dependencies during the prompt, you can skip this p
     $ pip install -r tests/requirements.txt
     ```
 
-### Write your component code in `src/lib/components/DashDeferJSImport.react.js`. 
+### Write your component code in `src/lib/components/Import.react.js`. 
 
 - The demo app is in `src/demo` and you will import your example component code into your demo app.
 - Test your code in a Python environment:

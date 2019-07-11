@@ -9,7 +9,7 @@ app.scripts.config.serve_locally = True
 app.css.config.serve_locally = True
 
 app.layout = html.Div([
-    dash_defer_js_import.DashDeferJSImport(
+    dash_defer_js_import.Import(
     	id='jsimport',
     	src='https://codepen.io/akronix/pen/pVqzLZ.js'
     ),

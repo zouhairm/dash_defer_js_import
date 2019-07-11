@@ -1,5 +1,5 @@
-from .DashDeferJSImport import DashDeferJSImport
+from .Import import Import
 
 __all__ = [
-    "DashDeferJSImport"
+    "Import"
 ]
