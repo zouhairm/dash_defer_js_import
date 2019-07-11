@@ -8,6 +8,9 @@ with open(os.path.join('dash_defer_js_import', 'package.json')) as f:
 
 package_name = package["name"].replace(" ", "_").replace("-", "_")
 
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+    
 setup(
     name=package_name,
     version=package["version"],
@@ -16,5 +19,7 @@ setup(
     include_package_data=True,
     license=package['license'],
     description=package['description'] if 'description' in package else package_name,
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     install_requires=[]
 )

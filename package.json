@@ -1,6 +1,6 @@
 {
   "name": "dash_defer_js_import",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Deferring loading of JS files until after React loads",
   "main": "build/index.js",
   "scripts": {
