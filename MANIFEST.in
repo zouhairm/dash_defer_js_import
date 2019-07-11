@@ -1,0 +1,5 @@
+include dash_defer_js_import/dash_defer_js_import.min.js
+include dash_defer_js_import/dash_defer_js_import.dev.js
+include dash_defer_js_import/metadata.json
+include dash_defer_js_import/package.json
+include README.md
